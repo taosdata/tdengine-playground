@@ -1,0 +1,7 @@
+systemctl start taosd
+systemctl start taosadapter
+
+CREATE DATABASE weather;
+CREATE DATABASE transport;
+CREATE STABLE weather.sensor (ts TIMESTAMP, pressure DOUBLE,temperature float,humidity float) TAGS (lat float, lon float);
+CREATE STABLE transport.gps (ts TIMESTAMP,type nchar(10),latitude float,longitude float, vehicle_id int) TAGS (line_number nchar(10))
