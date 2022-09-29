@@ -54,10 +54,10 @@ CREATE STABLE transport.gps (ts TIMESTAMP,type nchar(10),latitude float,longitud
 2)	内置SQL语句直接修改preset_sql变量。
 
 ### 7.	预览
-![](img/img_2.png)
+![](img/img2.png)
 
-![](img/img_3.png)
+![](img/img3.png)
 
-![](img/img_4.png)
+![](img/img4.png)
 
-![](img/img_5.png)
+![](img/img5.png)
